@@ -23,7 +23,7 @@ function genData(N) {
     return data;
 }
 
-var tree = rbush(10);
+var tree = new RBush(10);
 var data = [];
 
 genBulkInsert(N)();
